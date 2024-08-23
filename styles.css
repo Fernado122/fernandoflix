@@ -1,0 +1,63 @@
+body {
+    color: rgb(238, 5, 5);
+    background: black;
+    margin: 0px;
+    font-family: Bebas Neue, sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(238, 5, 5);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(238, 5, 5);
+}
+
+.chamada {
+    background-coloR: BLACK;
+    padding-bottom: 80PX;
+    padding-top: 80PX;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto; 
+} 
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid red;
+}
+
+.categoria h2 {
+    color: rgb(75, 5, 238)
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
